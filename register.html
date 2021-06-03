@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="user singupBx">
+          <div class="formBx">
+              <form>
+                  <h2>Crie uma conta</h2>
+                  <input type="text" name="" placeholder="Usuario">
+                  <input type="email" name="" placeholder="Email">
+                  <input type="password" name="" placeholder="Senha">
+                  <input type="password" name="" placeholder="Confirmar Senha">
+                  <input type="submit" name="" value="Cadastro">
+                  <p class="signup">Já tem uma conta? <a href="login.html" onclick="toggleForm(); ">Login</a></p>
+              </form>
+              </div>
+              <div class="imgBx"><img src="ace2.jpg"></div>
+      </div>
+  </div>
+  </div>
+
+</section>
+
+<script type="text/javascript">
+function toggleForm (){
+  var container = document.querySelector('.container');
+  container.classList.toggle('active')
+}
+</script>
+  </section>
+  
+</body>
+</html>
